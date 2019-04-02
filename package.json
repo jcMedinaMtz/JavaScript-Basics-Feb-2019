@@ -1,0 +1,22 @@
+{
+  "name": "javascript-basics",
+  "version": "1.0.0",
+  "description": "Basic JavaScript examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcMedinaMtz/JavaScript-Basics-Feb-2019.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "juan Carlos Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcMedinaMtz/JavaScript-Basics-Feb-2019/issues"
+  },
+  "homepage": "https://github.com/jcMedinaMtz/JavaScript-Basics-Feb-2019#readme"
+}

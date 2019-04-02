@@ -2,7 +2,7 @@ function getMoneyNeeded(data) {
     let whiskeyPrice = Number(data[0]);
     let beerLitres = Number(data[1]);
     let wineLitres = Number(data[2]);
-    let rakijaLitres = Number(data[3]);
+    let tequilaLitres = Number(data[3]);
     let whiskeyLitres = Number(data[4]);
     
     let rakijaPrice = whiskeyPrice / 2;
@@ -11,7 +11,7 @@ function getMoneyNeeded(data) {
 
     let allSum = whiskeyPrice * whiskeyLitres +
         beerPrice * beerLitres +
-        rakijaPrice * rakijaLitres + 
+        rakijaPrice * tequilaLitres + 
         winePrice * wineLitres;
     
     console.log(allSum.toFixed(2))
